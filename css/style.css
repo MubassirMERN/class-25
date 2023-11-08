@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 400px;
+    padding: 25px 20px;
+    background-color: rgba(128, 128, 128, 0.794);
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 100px;
+    position: relative;
+}
+.box form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.form_group input{
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+.form_group .btn{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.form_group p{
+    color: red;
+    text-transform: capitalize;
+}
+.pass_btn{
+    width: 60px;
+    height: 35px;
+    position: absolute;
+    top: 135px;
+    right: 21px;
+}
